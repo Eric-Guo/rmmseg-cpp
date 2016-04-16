@@ -15,6 +15,7 @@ Gem::Specification.new do |spec|
   spec.executable = 'rmmseg'
   spec.files = Dir['lib/**/*.rb']+ Dir['lib/*.rb']+ Dir['bin/*']+ Dir['ext/**/*.c']+ Dir['lib/**/*.h']
   spec.require_paths = [ 'lib', 'ext', 'data' ]
+  spec.platform = Gem::Platform::RUBY
   spec.extensions = Dir['ext/rmmseg/extconf.rb']
 
   spec.add_development_dependency "bundler", "~> 1.6"
