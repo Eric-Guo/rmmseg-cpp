@@ -3,8 +3,8 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 
 Gem::Specification.new do |spec|
-  spec.name = "rmmseg"
-  spec.version = "10.2.9.2"
+  spec.name = "rmmseg-cpp"
+  spec.version = "0.2.9"
   spec.authors = ["pluskid,seoaqua,ChienliMa"]
   spec.email = ["pluskid@gmail.com,seoaqua@qq.com,maqianlie@gmail.com"]
   spec.summary = %q{rmmseg-cpp}

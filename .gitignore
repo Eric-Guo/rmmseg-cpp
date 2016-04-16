@@ -7,3 +7,5 @@ doc
 !ext/rmmseg/*.{cpp,h}
 
 .DS_Store
+
+tmp/*
